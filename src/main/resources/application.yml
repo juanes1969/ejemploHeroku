@@ -1,0 +1,17 @@
+server:
+  port: 5432
+  servlet:
+    context-path: /poli/v1
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc://postgresql://ec2-3-208-157-78.compute-1.amazonaws.com:5432/df8qu95dceft3k
+    username: wkwwswevwzwztd
+    password: 6c8d74dc2017dad2f01a3d5ec4bda0f9d623221f5300bd766bcf4f451cfe4af6
+    platform: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
